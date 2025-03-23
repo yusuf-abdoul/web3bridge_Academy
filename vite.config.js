@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: "/web3bridge_Academy/",
+  base: process.env.VITE_BASE_PATH || "/web3bridge_Academy/",
 });
