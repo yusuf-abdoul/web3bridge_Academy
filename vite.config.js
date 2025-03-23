@@ -8,4 +8,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-})
+  base: "/web3bridge_Academy/",
+});
